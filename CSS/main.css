@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  font-family: karma, serif;
+  line-height: 1.5;
+  margin: 0
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0?auto;
+}
+
+ul {
+  margin:0;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+li {
+  list-style: none;
+  border: 3px solid #987fff;
+  border-radius: 6px;
+}
